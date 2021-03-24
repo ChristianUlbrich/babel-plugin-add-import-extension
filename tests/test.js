@@ -7,6 +7,7 @@ const importStatements = `
 import { oneBackLevel } from '../'
 import { twoBackLevel } from '../..'
 import { somethingBack } from '../lib/something'
+import { somethingBackFromOther } from '../lib/something.lib'
 import { export1 , export2 as alias2 } from './lib/something'
 import { something } from './lib/something'
 import { something as other } from './lib/something'
